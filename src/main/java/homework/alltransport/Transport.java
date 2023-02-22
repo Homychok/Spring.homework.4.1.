@@ -1,4 +1,4 @@
-package homework;
+package homework.alltransport;
 
 public interface Transport {
     public void go();

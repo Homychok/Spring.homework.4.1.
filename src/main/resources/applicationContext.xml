@@ -7,23 +7,23 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="customTransport"
-          class="homework.Car"
+          class="homework.alltransport.Car"
           init-method="init"
           destroy-method="destroy">
     </bean>
     <bean id="customPerson"
-          class="homework.Person">
+          class="homework.alltransport.Person">
         <constructor-arg ref="customTransport"/>
 
     </bean>
     <bean id="customBus"
-          class="homework.Bus"
+          class="homework.alltransport.Bus"
           scope="singleton"
           init-method="init"
           destroy-method="destroy">
     </bean>
     <bean id="customTruck"
-          class="homework.Truck"
+          class="homework.alltransport.Truck"
           scope="prototype"
           init-method="init"
           destroy-method="destroy">

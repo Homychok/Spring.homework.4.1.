@@ -1,4 +1,4 @@
-package homework;
+package homework.alltransport;
 
 public class Bus {
     //    public Bus(Person person) {

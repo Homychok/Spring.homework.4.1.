@@ -1,4 +1,4 @@
-package homework;
+package homework.alltransport;
 
 public class Truck {
     public Truck() {
